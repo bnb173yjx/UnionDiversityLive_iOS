@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'UnionStreamDemo' do
+  pod 'UnionMobileStreaming', :git => 'https://github.com/ksvc/UnionMobileStreaming_iOS'
+  pod 'UnionOpenSource',      :git => 'https://github.com/ksvc/UnionMobileStreaming_iOS'
+end
