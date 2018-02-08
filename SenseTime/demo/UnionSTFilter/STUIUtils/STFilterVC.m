@@ -316,6 +316,8 @@ typedef NS_ENUM(NSInteger, STViewTag) {
     // 需要设为之前的渲染环境防止与其他需要 GPU 资源的模块冲突.
     [self setCurrentContext:preContext];
     
+    [[GPUImageContext sharedFramebufferCache]purgeAllUnassignedFramebuffers];
+    
     _textureOutput = [[UnionGPUPicOutput alloc] initWithOutFmt:kCVPixelFormatType_32RGBA];
 
     __weak typeof(self) weakSelf = self;
@@ -324,8 +326,6 @@ typedef NS_ENUM(NSInteger, STViewTag) {
     };
     
     _textureInput = [[GPUImageTextureInput alloc] initWithTexture:_textureFilterOutput size:CGSizeMake(self.imageWidth, self.imageHeight)];
-
-    //_textureInput = [[GPUImageTextureInput alloc] initWithTexture:_textureFilterOutput size:CGSizeMake(270, 480)];
 }
 
 - (EAGLContext *)getPreContext

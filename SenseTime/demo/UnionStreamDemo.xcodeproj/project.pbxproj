@@ -27,11 +27,7 @@
 		05A1793E2028096A00DE29DB /* STScrollTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1790C202808B800DE29DB /* STScrollTitleView.m */; };
 		05A1793F2028096A00DE29DB /* STCommonObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1790F202808B800DE29DB /* STCommonObjectView.m */; };
 		05A179402028097E00DE29DB /* PortraitFilters.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A17916202808B800DE29DB /* PortraitFilters.bundle */; };
-		05A179412028097E00DE29DB /* SceneryFilters.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A17917202808B800DE29DB /* SceneryFilters.bundle */; };
-		05A179422028097E00DE29DB /* StillLifeFilters.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A17918202808B800DE29DB /* StillLifeFilters.bundle */; };
-		05A179432028097E00DE29DB /* DeliciousFoodFilters.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A17919202808B800DE29DB /* DeliciousFoodFilters.bundle */; };
 		05A179442028098700DE29DB /* 2d_sticker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A1791D202808B800DE29DB /* 2d_sticker.bundle */; };
-		05A179452028098700DE29DB /* hand_gesture_sticker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A1791E202808B800DE29DB /* hand_gesture_sticker.bundle */; };
 		05A179462028098700DE29DB /* 3d_sticker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A1791F202808B800DE29DB /* 3d_sticker.bundle */; };
 		05A179472028098700DE29DB /* segment_sticker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A17920202808B800DE29DB /* segment_sticker.bundle */; };
 		05A179482028098700DE29DB /* face_change_sticker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05A17921202808B800DE29DB /* face_change_sticker.bundle */; };
@@ -92,12 +88,8 @@
 		05A17912202808B800DE29DB /* STTriggerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTriggerView.m; sourceTree = "<group>"; };
 		05A17913202808B800DE29DB /* STTriggerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTriggerView.h; sourceTree = "<group>"; };
 		05A17916202808B800DE29DB /* PortraitFilters.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PortraitFilters.bundle; sourceTree = "<group>"; };
-		05A17917202808B800DE29DB /* SceneryFilters.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SceneryFilters.bundle; sourceTree = "<group>"; };
-		05A17918202808B800DE29DB /* StillLifeFilters.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StillLifeFilters.bundle; sourceTree = "<group>"; };
-		05A17919202808B800DE29DB /* DeliciousFoodFilters.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DeliciousFoodFilters.bundle; sourceTree = "<group>"; };
 		05A1791B202808B800DE29DB /* common_object_sensetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_object_sensetime.png; sourceTree = "<group>"; };
 		05A1791D202808B800DE29DB /* 2d_sticker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 2d_sticker.bundle; sourceTree = "<group>"; };
-		05A1791E202808B800DE29DB /* hand_gesture_sticker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = hand_gesture_sticker.bundle; sourceTree = "<group>"; };
 		05A1791F202808B800DE29DB /* 3d_sticker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 3d_sticker.bundle; sourceTree = "<group>"; };
 		05A17920202808B800DE29DB /* segment_sticker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = segment_sticker.bundle; sourceTree = "<group>"; };
 		05A17921202808B800DE29DB /* face_change_sticker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = face_change_sticker.bundle; sourceTree = "<group>"; };
@@ -243,9 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				05A17916202808B800DE29DB /* PortraitFilters.bundle */,
-				05A17917202808B800DE29DB /* SceneryFilters.bundle */,
-				05A17918202808B800DE29DB /* StillLifeFilters.bundle */,
-				05A17919202808B800DE29DB /* DeliciousFoodFilters.bundle */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -262,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				05A1791D202808B800DE29DB /* 2d_sticker.bundle */,
-				05A1791E202808B800DE29DB /* hand_gesture_sticker.bundle */,
 				05A1791F202808B800DE29DB /* 3d_sticker.bundle */,
 				05A17920202808B800DE29DB /* segment_sticker.bundle */,
 				05A17921202808B800DE29DB /* face_change_sticker.bundle */,
@@ -434,19 +422,15 @@
 				0574847C2021719800E16810 /* Info.plist in Resources */,
 				06786C271FAB1BEE003B5B77 /* Assets.xcassets in Resources */,
 				05A179462028098700DE29DB /* 3d_sticker.bundle in Resources */,
-				05A179422028097E00DE29DB /* StillLifeFilters.bundle in Resources */,
 				05A179472028098700DE29DB /* segment_sticker.bundle in Resources */,
-				05A179452028098700DE29DB /* hand_gesture_sticker.bundle in Resources */,
 				05A179362028094B00DE29DB /* STViewButton.xib in Resources */,
 				05A1794A2028099200DE29DB /* SENSEME.lic in Resources */,
 				05A179372028094F00DE29DB /* STSliderView.xib in Resources */,
 				05A1794B2028099200DE29DB /* M_SenseME_Face_Extra_5.1.0.model in Resources */,
 				05A179402028097E00DE29DB /* PortraitFilters.bundle in Resources */,
 				06786C251FAB1BEE003B5B77 /* Main.storyboard in Resources */,
-				05A179412028097E00DE29DB /* SceneryFilters.bundle in Resources */,
 				05A1794C2028099200DE29DB /* M_SenseME_Action_5.2.0.model in Resources */,
 				05A179442028098700DE29DB /* 2d_sticker.bundle in Resources */,
-				05A179432028097E00DE29DB /* DeliciousFoodFilters.bundle in Resources */,
 				05A179492028098700DE29DB /* deformation_sticker.bundle in Resources */,
 				05A179482028098700DE29DB /* face_change_sticker.bundle in Resources */,
 			);
